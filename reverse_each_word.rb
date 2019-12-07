@@ -4,6 +4,6 @@ def reverse_each_word(phrase)
 array=[]
 reverse=
 array=phrase.split
-reverse= array.each do |word|
-  word.reverse
+array.each do |word|
+  reverse<<word.reverse
 end
