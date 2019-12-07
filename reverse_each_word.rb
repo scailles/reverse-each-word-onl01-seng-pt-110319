@@ -10,7 +10,5 @@ end
 
 def reverse_each_word(array)
   phrase_array=array.split
-  reverse_a=phrase_array.collect do {|word| word.reverse!}
-end
-  return reverse_a.join(" ")
+  reverse_a=phrase_array.collect do {|word| word.reverse!}.join(" ")
 end
