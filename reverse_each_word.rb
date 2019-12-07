@@ -8,5 +8,5 @@ array=phrase.split
 array.each do |word|
   reverse<<word.reverse
 end
-  return reverse.join(" ")
+  return reverse.join("Hello there, and how are you?")
 end
