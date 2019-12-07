@@ -6,6 +6,4 @@ reverse=
 phrase= "Hello there, and how are you?"
 array=phrase.split
 array.each do |word|
-  reverse<<word.reverse
-end
 end
