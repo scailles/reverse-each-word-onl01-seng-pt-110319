@@ -1,9 +1,7 @@
 
 
 def reverse_each_word(array)
-array=[]
-reverse_a=
-array="Hello there, and how are you?".split
-array.each do {|word| word.reverse}
-reverse_a<<word
+  new_array = array.split(" ")
+  reversed_array = new_array.each {|x| x.reverse!}
+  return reversed_array.join(" ")
 end
