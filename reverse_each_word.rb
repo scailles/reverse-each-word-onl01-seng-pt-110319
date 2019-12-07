@@ -1,6 +1,6 @@
 
 
-def reverse_each_word(phrase)
+def reverse_each_word(array)
 array=[]
 reverse=
 phrase= "Hello there, and how are you?"
