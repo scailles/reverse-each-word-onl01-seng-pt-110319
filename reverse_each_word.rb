@@ -1,5 +1,6 @@
 
 def reverse_each_word(array)
   phrase_array=array.split
-  reverse=phrase_array.reverse
+  reverse=phrase_array.each do |word|
+    
   
